@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+  <!-- FIRST ROW -->
+ <div class="headerone">
+  <div class="textone"><i class="fa-solid fa-caret-right" style="color:rgb(3, 84, 3)"></i> H2 B Wing 1F AHU-01</div>
+  <div class="btngroup">
+    <div><button  class="btntopone"><i class="fa-solid fa-flask"></i> Create Wo</button></div>
+    <div ><button class="btntoptwo"><i class="fa-solid fa-cloud-arrow-down"></i> WO Report</button></div>
+  </div>
+  
+
+ </div>
+<!-- SECOND ROW -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="row headingtext">Description</div>
+      <div class="row textar">
+        <textarea  class="textareas" placeholder="Add a description ..." rows="2" cols="4">
+       
+        </textarea>
+       
+       </div>
+      <div class="row bluebox">
+        <div class="rowi"><i class="fa-solid fa-check" style="color:rgb(3, 84, 3)"></i> Automatic Work orders will be created as per the <b class="under">schedule</b></div>
+        <div class="rowi"><i class="fa-solid fa-check" style="color:rgb(3, 84, 3)"></i> Selected <b>Asset</b> will be linked to Work order on creation</div>
+        <div class="rowi"> <span class="optional"> OPTIONAL</span> Setup Asset <b>  Log Book</b> </div>
+       
+      
+      </div>
+
+
+      <!-- TABS -->
+      <div class="rowiww"> 
+    <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#hometab" role="tab" data-toggle="tab"><i class="fa-solid fa-calendar"></i> Schedule</a></li>
+  <li><a href="#javatab" role="tab" data-toggle="tab"><i class="fa-solid fa-wrench"></i> Config</a></li>
+
+  
+</ul>
+</li>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="hometab"> <i class="fa-solid fa-clock-eight"></i> AHU Daily Inspection Checklist | At 07:00 AM, only on Sunday <br/>
+   Click <i class="fa-solid fa-note-medical"></i> to create a new schedule</div>
+  <div class="tab-pane" id="javatab">ABC</div>
+  
+  
+</div>
+
+    </div>
+    </div>
+
+    <!-- COLUMN -->
+    <div class="col-sm">
+     <div class="row headingtexttwo">Details</div>
+     <div class="row">
+        <div class="col-sm">
+          <div class="rowi textd"> <i class="fa-solid fa-microchip"></i>  Asset</div>
+          <div class="rowi textd"> <i class="fa-solid fa-users"></i> Assignee</div>
+          <div class="rowi textd"><i class="fa-solid fa-folder"></i> Category</div>
+        </div>
+        <div class="col-sm">
+          <div class="rowi textd"><i class="fa-solid fa-microchip " style="color:#47beb8"></i> AHU-01   <i class="fa-solid fa-pen-to-square"></i></div>
+          <div class="rowi textd "><span class="ccircle">C</span> <span class="pcircle">+</span></div>
+          <div class="rowi dropdd"><select name="cars" id="cars">
+            <option value="volvo">Engineering</option>
+            <option value="saab">Engineering</option>
+            
+          </select></div>
+        </div>
+     </div>
+     <div class=" topmar">
+      <div class="rowi"><b>Created</b> September 28,2021, 03:48 PM</div>
+      <div class="rowi"><b>Updated</b> October 11,2021, 03:23 PM</div>
+     </div>
+     
+    </div>
+   
+  </div>
+</div>
+
+
+</body>
+<script src="main.js"></script>
+</html>

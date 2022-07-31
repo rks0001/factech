@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'DM Sans', sans-serif;
+}
+
+.headerone{
+  display: flex;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  
+}
+.textone{
+  padding: 0.3rem 1rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btngroup{
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  display: flex;
+}
+.btntopone{
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
+  font-size: 16px;
+}
+.btntoptwo{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
+  font-size: 16px;
+}
+
+/* SECOND ROW */
+
+.headingtext{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.textar{
+  width: 100%;
+  margin: 14px 0 ;
+}
+
+textarea {
+  width: 3rem;
+  height: 5rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+color: black;
+  background-color: #fafafa;
+  font-size: 14px;
+  resize: none;
+}
+
+.bluebox{
+  background-color: #cde4ff;
+  border: 2px solid #cde4ff;
+  border-radius: 4px;
+  width: 80%;
+  min-height: 10vh;
+  padding: 6px;
+  font-size: 12px;
+}
+
+.optional{
+  background-color: rgb(121, 121, 121);
+  color: white;
+  font-weight: 500;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 2px;
+  font-size: 11px;
+}
+
+.under{
+  text-decoration: dotted;
+}
+
+.headingtexttwo{
+  font-weight: 600;
+  margin: 0 0 20px 0 ;
+  font-size: 14px;
+}
+
+.textd{
+  font-size: 13px;
+  margin: 12px 0;
+  font-weight: 500;
+
+}
+
+.dropdd{
+  width: 50%;
+  font-size: 13px;
+  
+}
+
+select{
+  color: #6b6b6b;
+  border: 1px solid #2e2e2e;
+  border-radius: 2px;
+}
+
+.ccircle{
+background-color: #1a73e8;
+border: 2px solid #1a73e8;
+border-radius: 50%;
+padding: 2px 6px;
+color: white;
+font-weight: 500;
+}
+
+.pcircle{
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 2px 6px;
+  color: white;
+  font-weight: 500;
+}
+
+.topmar{
+  margin: 90px 0;
+  color: #2e2e2e;
+  font-size: 13px;
+}
+
+.rowiww{
+  font-size: 13px;
+  margin: 30px 0 ;
+
+}
+
